@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bucket List</title>
+  <!-- 최적화내용도 head에 포함 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Pen+Script&display=swap');
+    * {
+      font-family: 'Nanum Pen Script', cursive;
+      font-size: 24px;
+      font-weight: lighter;
+    }
+    .bg {
+      width: 350px;
+      background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+    }
+    .title {
+      color: white;
+      background-color: tomato;
+      font-size: 35px;
+      line-height: 0.7em;
+      padding: 3% 30%;
+      border-radius: 7px;
+    }
+    .msg {
+      font-weight: bold;
+      line-height: 0.3em;
+    }
+    .bucket {
+      width: 150px;
+      height: 150px;
+    }
+    .img1 {
+      background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+      background-size: cover;
+      background-position: center;
+    }
+    .img2 {
+      background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
+</head>
+<body class="bg center">
+  <h1 class="title">2023 ver.</h1>
+  <p class="msg">Have to do!</p>
+  <div class="row flex-row wrap">
+    <!-- class에 이름을 붙일 때 한 칸 띄우면 여러 개 설정 가능 -->
+    <div class="bucket img1 center">FE 개발자로 취업하기</div>
+    <div class="bucket img2 center">일본어 공부하기</div>
+    <div class="bucket img2 center">완벽하게 독립하기</div>
+    <div class="bucket img1 center">Empty 1</div>
+    <div class="bucket img1 center">Empty 2</div>
+    <div class="bucket img2 center">Empty 3</div>
+  </div>
+</body>
+</html>
